@@ -1,2 +1,5 @@
-# tax-comparisons
-Compare the cost of taxes in the US to either historical tax rates or those of other countries.
+# GOAL:
+- Create a tool to easily & visually compare tax rates thru US history and between modern countries.
+- Have default values based on mean/median incomes & typical spending patterns
+- Have the ability to enter your own info/ make it interactive
+- Try to create a realistic estimate. (e.g. take into consideration state, local, federal taxes, property tax, sales tax, VAT tax, etc. Take into consideration inflation rates.)
