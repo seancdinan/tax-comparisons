@@ -7,7 +7,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "IRS: https://www.irs.com/articles/2015-federal-tax-rates-personal-exemptions-and-standard-deductions"
+		"source": "IRS: https://www.irs.com/articles/2015-federal-tax-rates-personal-exemptions-and-standard-deductions",
+		"notes": ""
 	},
 	{
 		"year": 2010,
@@ -17,7 +18,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 2005,
@@ -27,7 +29,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 2000,
@@ -37,7 +40,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1995,
@@ -47,7 +51,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1990,
@@ -57,7 +62,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1985,
@@ -67,7 +73,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1980,
@@ -77,7 +84,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1975,
@@ -87,7 +95,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1970,
@@ -97,7 +106,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1965,
@@ -107,7 +117,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1960,
@@ -117,7 +128,8 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1955,
@@ -127,37 +139,117 @@
 			"single": [],
 			"head of household": []
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": ""
 	},
 	{
 		"year": 1950,
 		"rates": {
-			"married filing jointly": [],
-			"married filing separately": [],
-			"single": [],
-			"head of household": []
+			"married filing jointly": [[0.200, 0, 2000], [0.220, 2000, 4000], [0.260, 4000, 6000],
+			[0.300, 6000, 8000], [0.340, 8000, 10000], [0.380, 10000, 12000], [0.430, 12000, 14000],
+			[0.470, 14000, 16000], [0.500, 16000, 18000], [0.530, 18000, 20000], [0.560, 20000, 22000],
+			[0.590, 22000, 26000], [0.620, 26000, 32000], [0.650, 32000, 38000], [0.690, 38000, 44000],
+			[0.720, 44000, 50000], [0.750, 50000, 60000], [0.780, 60000, 70000], [0.810, 70000, 80000],
+			[0.840, 80000, 90000], [0.870, 90000, 100000], [0.890, 100000, 150000], [0.900, 150000, 200000],
+			[0.910, 200000, null]],
+			"married filing separately": [[0.200, 0, 2000], [0.220, 2000, 4000], [0.260, 4000, 6000],
+			[0.300, 6000, 8000], [0.340, 8000, 10000], [0.380, 10000, 12000], [0.430, 12000, 14000],
+			[0.470, 14000, 16000], [0.500, 16000, 18000], [0.530, 18000, 20000], [0.560, 20000, 22000],
+			[0.590, 22000, 26000], [0.620, 26000, 32000], [0.650, 32000, 38000], [0.690, 38000, 44000],
+			[0.720, 44000, 50000], [0.750, 50000, 60000], [0.780, 60000, 70000], [0.810, 70000, 80000],
+			[0.840, 80000, 90000], [0.870, 90000, 100000], [0.890, 100000, 150000], [0.900, 150000, 200000],
+			[0.910, 200000, null]],
+			"single": [[0.200, 0, 2000], [0.220, 2000, 4000], [0.260, 4000, 6000],
+			[0.300, 6000, 8000], [0.340, 8000, 10000], [0.380, 10000, 12000], [0.430, 12000, 14000],
+			[0.470, 14000, 16000], [0.500, 16000, 18000], [0.530, 18000, 20000], [0.560, 20000, 22000],
+			[0.590, 22000, 26000], [0.620, 26000, 32000], [0.650, 32000, 38000], [0.690, 38000, 44000],
+			[0.720, 44000, 50000], [0.750, 50000, 60000], [0.780, 60000, 70000], [0.810, 70000, 80000],
+			[0.840, 80000, 90000], [0.870, 90000, 100000], [0.890, 100000, 150000], [0.900, 150000, 200000],
+			[0.910, 200000, null]],
+			"head of household": [[0.200, 0, 2000], [0.220, 2000, 4000], [0.260, 4000, 6000],
+			[0.300, 6000, 8000], [0.340, 8000, 10000], [0.380, 10000, 12000], [0.430, 12000, 14000],
+			[0.470, 14000, 16000], [0.500, 16000, 18000], [0.530, 18000, 20000], [0.560, 20000, 22000],
+			[0.590, 22000, 26000], [0.620, 26000, 32000], [0.650, 32000, 38000], [0.690, 38000, 44000],
+			[0.720, 44000, 50000], [0.750, 50000, 60000], [0.780, 60000, 70000], [0.810, 70000, 80000],
+			[0.840, 80000, 90000], [0.870, 90000, 100000], [0.890, 100000, 150000], [0.900, 150000, 200000],
+			[0.910, 200000, null]]
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": "Tax rates include normal tax of 3% plus applicable surtax. Max effective rate on net income is 87.2%. Also, reductions are 13% of total normal tax and surtax up to $400, 9% of tax from $400 to $100000, and 7.3% of tax in excess of $100000."
 	},
 	{
 		"year": 1945,
 		"rates": {
-			"married filing jointly": [],
-			"married filing separately": [],
-			"single": [],
-			"head of household": []
+			"married filing jointly": [[0.230, 0, 2000], [0.250, 2000, 4000], [0.290, 4000, 6000],
+			[0.330, 6000, 8000], [0.370, 8000, 10000], [0.410, 10000, 12000], [0.460, 12000, 14000],
+			[0.500, 14000, 16000], [0.530, 16000, 18000], [0.560, 18000, 20000], [0.590, 20000, 22000],
+			[0.620, 22000, 26000], [0.650, 26000, 32000], [0.680, 32000, 38000], [0.720, 38000, 44000],
+			[0.750, 44000, 50000], [0.780, 50000, 60000], [0.810, 60000, 70000], [0.840, 70000, 80000],
+			[0.870, 80000, 90000], [0.900, 90000, 100000], [0.920, 100000, 150000], [0.930, 150000, 200000],
+			[0.940, 200000, null]],
+			"married filing separately": [[0.230, 0, 2000], [0.250, 2000, 4000], [0.290, 4000, 6000],
+			[0.330, 6000, 8000], [0.370, 8000, 10000], [0.410, 10000, 12000], [0.460, 12000, 14000],
+			[0.500, 14000, 16000], [0.530, 16000, 18000], [0.560, 18000, 20000], [0.590, 20000, 22000],
+			[0.620, 22000, 26000], [0.650, 26000, 32000], [0.680, 32000, 38000], [0.720, 38000, 44000],
+			[0.750, 44000, 50000], [0.780, 50000, 60000], [0.810, 60000, 70000], [0.840, 70000, 80000],
+			[0.870, 80000, 90000], [0.900, 90000, 100000], [0.920, 100000, 150000], [0.930, 150000, 200000],
+			[0.940, 200000, null]],
+			"single": [[0.230, 0, 2000], [0.250, 2000, 4000], [0.290, 4000, 6000],
+			[0.330, 6000, 8000], [0.370, 8000, 10000], [0.410, 10000, 12000], [0.460, 12000, 14000],
+			[0.500, 14000, 16000], [0.530, 16000, 18000], [0.560, 18000, 20000], [0.590, 20000, 22000],
+			[0.620, 22000, 26000], [0.650, 26000, 32000], [0.680, 32000, 38000], [0.720, 38000, 44000],
+			[0.750, 44000, 50000], [0.780, 50000, 60000], [0.810, 60000, 70000], [0.840, 70000, 80000],
+			[0.870, 80000, 90000], [0.900, 90000, 100000], [0.920, 100000, 150000], [0.930, 150000, 200000],
+			[0.940, 200000, null]],
+			"head of household": [[0.230, 0, 2000], [0.250, 2000, 4000], [0.290, 4000, 6000],
+			[0.330, 6000, 8000], [0.370, 8000, 10000], [0.410, 10000, 12000], [0.460, 12000, 14000],
+			[0.500, 14000, 16000], [0.530, 16000, 18000], [0.560, 18000, 20000], [0.590, 20000, 22000],
+			[0.620, 22000, 26000], [0.650, 26000, 32000], [0.680, 32000, 38000], [0.720, 38000, 44000],
+			[0.750, 44000, 50000], [0.780, 50000, 60000], [0.810, 60000, 70000], [0.840, 70000, 80000],
+			[0.870, 80000, 90000], [0.900, 90000, 100000], [0.920, 100000, 150000], [0.930, 150000, 200000],
+			[0.940, 200000, null]]
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": "Tax rates include normal tax of 3% plus applicable surtax. Max effective rate on net income is 90%."
 	},
 	{
 		"year": 1940,
 		"rates": {
-			"married filing jointly": [],
-			"married filing separately": [],
-			"single": [],
-			"head of household": []
+			"married filing jointly": [[0.040, 0, 4000], [0.080, 4000, 6000], [0.100, 6000, 8000],
+			[0.120, 8000, 10000], [0.140, 10000, 12000], [0.160, 12000, 14000], [0.190, 14000, 16000],
+			[0.220, 16000, 18000], [0.250, 18000, 20000], [0.280, 20000, 22000], [0.310, 22000, 26000],
+			[0.340, 26000, 32000], [0.370, 32000, 38000], [0.400, 38000, 44000], [0.440, 44000, 50000],
+			[0.480, 50000, 60000], [0.510, 60000, 70000], [0.540, 70000, 80000], [0.570, 80000, 90000],
+			[0.600, 90000, 100000], [0.620, 100000, 150000], [0.640, 150000], [0.660, 200000, 250000],
+			[0.680, 250000, 300000], [0.700, 300000, 400000], [0.720, 400000, 500000], [0.740, 500000, 750000],
+			[0.760, 750000, 1000000], [0.770, 1000000, 2000000], [0.780, 2000000, 5000000], [0.790, 5000000, null]],
+			"married filing separately": [[0.040, 0, 4000], [0.080, 4000, 6000], [0.100, 6000, 8000],
+			[0.120, 8000, 10000], [0.140, 10000, 12000], [0.160, 12000, 14000], [0.190, 14000, 16000],
+			[0.220, 16000, 18000], [0.250, 18000, 20000], [0.280, 20000, 22000], [0.310, 22000, 26000],
+			[0.340, 26000, 32000], [0.370, 32000, 38000], [0.400, 38000, 44000], [0.440, 44000, 50000],
+			[0.480, 50000, 60000], [0.510, 60000, 70000], [0.540, 70000, 80000], [0.570, 80000, 90000],
+			[0.600, 90000, 100000], [0.620, 100000, 150000], [0.640, 150000], [0.660, 200000, 250000],
+			[0.680, 250000, 300000], [0.700, 300000, 400000], [0.720, 400000, 500000], [0.740, 500000, 750000],
+			[0.760, 750000, 1000000], [0.770, 1000000, 2000000], [0.780, 2000000, 5000000], [0.790, 5000000, null]],
+			"single": [[0.040, 0, 4000], [0.080, 4000, 6000], [0.100, 6000, 8000],
+			[0.120, 8000, 10000], [0.140, 10000, 12000], [0.160, 12000, 14000], [0.190, 14000, 16000],
+			[0.220, 16000, 18000], [0.250, 18000, 20000], [0.280, 20000, 22000], [0.310, 22000, 26000],
+			[0.340, 26000, 32000], [0.370, 32000, 38000], [0.400, 38000, 44000], [0.440, 44000, 50000],
+			[0.480, 50000, 60000], [0.510, 60000, 70000], [0.540, 70000, 80000], [0.570, 80000, 90000],
+			[0.600, 90000, 100000], [0.620, 100000, 150000], [0.640, 150000], [0.660, 200000, 250000],
+			[0.680, 250000, 300000], [0.700, 300000, 400000], [0.720, 400000, 500000], [0.740, 500000, 750000],
+			[0.760, 750000, 1000000], [0.770, 1000000, 2000000], [0.780, 2000000, 5000000], [0.790, 5000000, null]],
+			"head of household": [[0.040, 0, 4000], [0.080, 4000, 6000], [0.100, 6000, 8000],
+			[0.120, 8000, 10000], [0.140, 10000, 12000], [0.160, 12000, 14000], [0.190, 14000, 16000],
+			[0.220, 16000, 18000], [0.250, 18000, 20000], [0.280, 20000, 22000], [0.310, 22000, 26000],
+			[0.340, 26000, 32000], [0.370, 32000, 38000], [0.400, 38000, 44000], [0.440, 44000, 50000],
+			[0.480, 50000, 60000], [0.510, 60000, 70000], [0.540, 70000, 80000], [0.570, 80000, 90000],
+			[0.600, 90000, 100000], [0.620, 100000, 150000], [0.640, 150000], [0.660, 200000, 250000],
+			[0.680, 250000, 300000], [0.700, 300000, 400000], [0.720, 400000, 500000], [0.740, 500000, 750000],
+			[0.760, 750000, 1000000], [0.770, 1000000, 2000000], [0.780, 2000000, 5000000], [0.790, 5000000, null]]
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": "Tax rates include normal tax of 4% plus applicable surtax. Also, defense tax of 10% of normal tax & surtax (limited to 10% of excess of net income over sum of normal tax & surtax."
 	},
 	{
 		"year": 1935,
@@ -195,6 +287,7 @@
 			[0.570, 150000, 200000], [0.580, 200000, 300000], [0.590, 300000, 400000], [0.600, 400000, 500000],
 			[0.610, 500000, 750000], [0.620, 750000, 1000000], [0.630, 1000000, null]]
 		},
-		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf"
+		"source": "Tax Foundation: http://www.taxfoundation.org/sites/default/files/docs/fed_individual_rate_history_nominal.pdf",
+		"notes": "Tax rates include normal tax of 4% plus applicable surtax."
 	}
 }
