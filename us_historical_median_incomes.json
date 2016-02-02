@@ -1,0 +1,87 @@
+{
+	{
+		"year": 1935,
+		"data": [1524, 26365],
+		"source": "100 Years of Consumer Spending, 1934-1936, US Bureau of Labor Statistics"
+	},
+	{
+		"year": 1940,
+		"data": [1368, 23159],
+		"source": "Prologue Magazine, Spring 2012, Vol 44, No 1: Brother, Can You Spare a Dime?"
+	},
+	{
+		"year": 1945,
+		"data": [2379, 31325],
+		"source": "US Census: Current Population Reports Consumer Income 1945"
+	},
+	{
+		"year": 1950,
+		"data": [3319, 32641],
+		"source": "US Census: Current Population Reports Consumer Income 1960"
+	},
+	{
+		"year": 1955,
+		"data": [4421, 39098],
+		"source": "US Census: Current Population Reports Consumer Income 1965"
+	},
+	{
+		"year": 1960,
+		"data": [5620, 45001],
+		"source": "US Census: Current Population Reports Consumer Income 1965"
+	},
+	{
+		"year": 1965,
+		"data": [6882, 51782],
+		"source": "US Census: Current Population Reports Consumer Income 1965"
+	},
+	{
+		"year": 1970,
+		"data": [8730, 53328],
+		"source": "US Census: Current Population Reports Consumer Income 1970"
+	},
+	{
+		"year": 1975,
+		"data": [11800, 51985],
+		"source": "US Census: Household Money Income in 1975 and Selected Social and Economic Characteristics of Households"
+	},
+	{
+		"year": 1980,
+		"data": [17710, 50941],
+		"source": "US Census: Money Income of Households, Families, and Persons in the United States, 1980"
+	},
+	{
+		"year": 1985,
+		"data": [23620, 52029],
+		"source": "US Census: Money Income of Households, Families, and Persons in the United States, 1985"
+	},
+	{
+		"year": 1990,
+		"data": [29943, 54299],
+		"source": "US Census: Money Income of Households, Families, and Persons in the United States, 1990"
+	},
+	{
+		"year": 1995,
+		"data": [34076, 52996],
+		"source": "US Census: Money Income in the United States 1995"
+	},
+	{
+		"year": 2000,
+		"data": [42148, 58012],
+		"source": "US Census: Money Income in the United States 2000"
+	},
+	{
+		"year": 2005,
+		"data": [46326, 56221],
+		"source": "US Census: Income, Poverty, & Health Insurance Coverage, 2005"
+	},
+	{
+		"year": 2010,
+		"data": [49445, 53744],
+		"source": "US Census: Income, Poverty, & Health Insurance Coverage, 2010"
+	},
+	{
+		"year": 2015,
+		"data": [53657, 53657],
+		"source": "US Census, Income & Poverty in the United States Sept. 2015 report"
+	}
+}
