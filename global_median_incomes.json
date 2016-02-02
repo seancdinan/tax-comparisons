@@ -1,0 +1,351 @@
+{
+	{
+		"continent": "Europe",
+		"country": "Germany",
+		"median household income(usd)": 33333,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "France",
+		"median household income(usd)": 31112,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "United Kingdom",
+		"median household income(usd)": 31617,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Italy",
+		"median household income(usd)": 20085,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Spain",
+		"median household income(usd)": 21959,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Ukraine",
+		"median household income(usd)": 11074,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Poland",
+		"median household income(usd)": 15338,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Romania",
+		"median household income(usd)": 7322,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Netherlands",
+		"median household income(usd)": 38584,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Belgium",
+		"median household income(usd)": 26703,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Greece",
+		"median household income(usd)": 17777,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Czech Republic",
+		"median household income(usd)": 22913,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Portugal",
+		"median household income(usd)": 16186,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Hungary",
+		"median household income(usd)": 12445,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Sweden",
+		"median household income(usd)": 50514,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Austria",
+		"median household income(usd)": 34911,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Switzerland",
+		"median household income(usd)": 35083,
+		"source": "http://stats.oecd.org/Index.aspx?DataSetCode=IDD"
+	},
+	{
+		"continent": "Europe",
+		"country": "Bulgaria",
+		"median household income(usd)": 8487,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Serbia",
+		"median household income(usd)": 8921,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Denmark",
+		"median household income(usd)": 44360,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Finland",
+		"median household income(usd)": 34615,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Norway",
+		"median household income(usd)": 51489,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Ireland",
+		"median household income(usd)": 25085,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+		{
+		"continent": "Europe",
+		"country": "Croatia",
+		"median household income(usd)": 16231,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Europe",
+		"country": "Iceland",
+		"median household income(usd)": 27029,
+		"source": "http://stats.oecd.org/Index.aspx?DataSetCode=IDD"
+	},
+	{
+		"continent": "Asia",
+		"country": "China",
+		"median household income(usd)": 6180,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "India",
+		"median household income(usd)": 3168,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Indonesia",
+		"median household income(usd)": 2199,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Pakistan",
+		"median household income(usd)": 4060,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Bangladesh",
+		"median household income(usd)": 2819,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Japan",
+		"median household income(usd)": 33822,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "South Korea",
+		"median household income(usd)": 40861,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Iran",
+		"median household income(usd)": 12046,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Iraq",
+		"median household income(usd)": 4917,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Afghanistan",
+		"median household income(usd)": 4121,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Saudi Arabia",
+		"median household income(usd)": 24980,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Syria",
+		"median household income(usd)": 8193,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Vietnam",
+		"median household income(usd)": 4783,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Asia",
+		"country": "Kazakhstan",
+		"median household income(usd)": 7492,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "North America",
+		"country": "Canada",
+		"median household income(usd)": 41280,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "North America",
+		"country": "Mexico",
+		"median household income(usd)": 11680,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "North America",
+		"country": "United States",
+		"median household income(usd)": 53657,
+		"source": "US Census, Income & Poverty in the United States Sept. 2015 report"
+	},
+	{
+		"continent": "South America",
+		"country": "Brazil",
+		"median household income(usd)": 7522,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "South America",
+		"country": "Colombia",
+		"median household income(usd)": 6544,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "South America",
+		"country": "Argentina",
+		"median household income(usd)": 14432,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "South America",
+		"country": "Peru",
+		"median household income(usd)": 5161,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "South America",
+		"country": "Venezuela",
+		"median household income(usd)": 11239,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Nigeria",
+		"median household income(usd)": 2667,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Egypt",
+		"median household income(usd)": 3111,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Democratic Republic of the Congo",
+		"median household income(usd)": 1988,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "South Africa",
+		"median household income(usd)": 5217,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Tanzania",
+		"median household income(usd)": 2154,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Kenya",
+		"median household income(usd)": 1870,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Algeria",
+		"median household income(usd)": 7849,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Sudan",
+		"median household income(usd)": 3640,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Africa",
+		"country": "Uganda",
+		"median household income(usd)": 1775,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Oceania",
+		"country": "Australia",
+		"median household income(usd)": 46555,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+	{
+		"continent": "Oceania",
+		"country": "New Zealand",
+		"median household income(usd)": 35562,
+		"source": "http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx"
+	},
+
+}
