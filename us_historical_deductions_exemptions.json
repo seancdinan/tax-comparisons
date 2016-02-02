@@ -1,0 +1,258 @@
+{
+	{
+		"year": 1935,
+		"expemption": {
+			"married person": 2500,
+			"single person": 1000,
+			"amount per dependent": 400,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1940,
+		"expemption": {
+			"married person": 2000,
+			"single person": 800,
+			"amount per dependent": 400,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1945,
+		"expemption": {
+			"married person": 1000,
+			"single person": 500,
+			"amount per dependent": 500,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1950,
+		"expemption": {
+			"married person": 1200,
+			"single person": 600,
+			"amount per dependent": 600,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1955,
+		"expemption": {
+			"married person": 1200,
+			"single person": 600,
+			"amount per dependent": 600,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1960,
+		"expemption": {
+			"married person": 1200,
+			"single person": 600,
+			"amount per dependent": 600,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1965,
+		"expemption": {
+			"married person": 1200,
+			"single person": 600,
+			"amount per dependent": 600,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": null
+		}
+	},
+	{
+		"year": 1970,
+		"expemption": {
+			"married person": 1250,
+			"single person": 625,
+			"amount per dependent": 625,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 1975,
+		"expemption": {
+			"married person": 1500,
+			"single person": 750,
+			"amount per dependent": 750,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 1980,
+		"expemption": {
+			"married person": 2000,
+			"single person": 1000,
+			"amount per dependent": 1000,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 1985,
+		"expemption": {
+			"married person": 2000,
+			"single person": 1000,
+			"amount per dependent": 1000,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 1990,
+		"expemption": {
+			"married person": 4100,
+			"single person": 2050,
+			"amount per dependent": 2050,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 1995,
+		"expemption": {
+			"married person": 5000,
+			"single person": 2500,
+			"amount per dependent": 2500,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 2000,
+		"expemption": {
+			"married person": 5600,
+			"single person": 2800,
+			"amount per dependent": 2800,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 2005,
+		"expemption": {
+			"married person": 6200,
+			"single person": 3100,
+			"amount per dependent": 3100,
+			"source": "http://taxfoundation.org/article/federal-individual-income-tax-exemptions-and-treatment-dividends-1913-2006"
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 2010,
+		"expemption": {
+			"married person": 0,
+			"single person": 0,
+			"amount per dependent": 0,
+			"source": null
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+	{
+		"year": 2015,
+		"expemption": {
+			"married person": 0,
+			"single person": 0,
+			"amount per dependent": 0,
+			"source": null
+		},
+		"deduction": {
+			"single": 0,
+			"head of household": 0,
+			"married couple": 0,
+			"source": "http://www.taxpolicycenter.org/taxfacts/displayafact.cfm?DocID=171&Topic2id=30&Topic3id=39"
+		}
+	},
+
+}
