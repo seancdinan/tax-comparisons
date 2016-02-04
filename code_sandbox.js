@@ -35,7 +35,7 @@ var usTaxRate = JSON.parse(rawUsTaxRate);
 // ***** Historical US Standard Deductions and Personal Exemptions, 1935 to Present *****
 // Format:
 // 	"year": value,
-// 	"expemption":
+// 	"exemption":
 // 		"married person": value,
 // 		"single person": value,
 // 		"amount per dependent": value,
@@ -77,11 +77,41 @@ function yearAdjuster(value, year1, year2) {
 		console.log('ERROR --> yearAdjuster: Please enter valid years')
 }
 
-function getDeductedValue(value, year, numberOfExemptions) {
+function getDeductedValue(value, year, deductionType, exemptionType, numberOfDependents) {
 	// Determine the value to be taxed in the given year after standard deduction and exemptions are removed
 	// 'value' should already be adjusted to 'year' value
 	// 'year' must be between 1935 and 2015 and end in a 5 or a 0
-	// Number of exemptions can be any positive integer value
+	// OPTIONAL: Deduction type can be "single", "head of household", or "married couple". Default value is "single".
+	// OPTIONAL: Exemption type can be "married person" or "single person". Default value is "single".
+	// OPTIONAL: Number of dependents can be any positive integer value. Default is 0.
+	var exemptionCount = 0;
+	if ((year1 >= 1935) && (year1 <= 2015) && (year2 >= 1935) && (year2 <= 2015) && (year1 % 5 == 0) && (year2 % 5 == 0)) {
+
+		// Set default values for deduction type & number of dependents.
+		if (deductionType == undefined)
+			deductionType = "single";
+		if (numberOfDependents == undefined)
+			numberOfDependents = 0;
+
+		// Determine the amount of allowable exemptions
+		if (exemptionType == "married person")
+			exemptionCount = 2 + exemptionCount;
+		if (exemptionType == "single person" || exemptionType == undefined)
+			exemptionCount = 1 + exemptionCount;
+
+		// Pull the data for the given year
+		for (var i = 0; i < usDeduction.length; i++) {
+			if (usDeduction[i]["year"] = year) {
+				var deductionTotal = usDeduction[i]["deduction"][deductionType];
+				var exemptionTotal = usDeduction[i]["exemption"]["single"] * exemptionCount;
+			}
+		}
+
+		// Return the original value less the sum of exemptions and deduction.
+		return (value - (deductionTotal + exemptionTotal));
+	}
+	else
+		console.log('ERROR --> getDeductedValue: Please enter valid years')
 }
 
 
