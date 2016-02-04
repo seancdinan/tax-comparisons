@@ -233,12 +233,45 @@ function yearComparer(value, year1, year2, filingType, deductionType, exemptionT
 					 '\nThat\'s a difference of $', difference.toFixed(2), '! (', (diffPercent*100).toFixed(2), '%)\n'].join('')
 }
 
+//*************************************************
+//*********** Compare 2 Countries *****************
+//*************************************************
+
+function countryComparer(country1, country2) {
+	// Make sure the 2 countries are on the list.
+	var country1Tester = false;
+	var country2Tester = false;
+	for (var i = 0; i < globalMedianIncome.length; i++) {
+		if (country1Tester == false) {
+			if (globalMedianIncome[i]["country"] == country1) {
+				country1Tester = true;
+				medianIncome1 = globalMedianIncome[i]["median household income(usd)"];
+			}
+		}
+		if (country2Tester == false) {
+			if (globalMedianIncome[i]["country"] == country2) {
+				country2Tester = true;
+				medianIncome2 = globalMedianIncome[i]["median household income(usd)"];
+			}
+		}
+	}
+	if (country1Tester == false || country2Tester == false)
+		return 'ERROR --> countryComparer: Countries chosen not in database.'
+
+	// Get their info.
+	var difference = medianIncome1 - medianIncome2;
+	var diffPercent= difference/medianIncome1;
+	return ['\nThe median income of ', country1, ' is $', medianIncome1 ,
+					'.\nThe median income of ', country2, ' is $', medianIncome2,
+					'.\nThat\'s a difference of $', difference.toFixed(2), ' (', (diffPercent*100).toFixed(2), '%).\n'].join('')
+}
+
 
 
 //*************************************************
 //*************  Run Some Tests!  *****************
 //*************************************************
-console.log(yearComparer(200000000, 2015, 1940))
+console.log(countryComparer('United Kingdom', 'South Africa'))
 
 
 
