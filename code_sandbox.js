@@ -86,8 +86,8 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 	// OPTIONAL: Number of dependents can be any positive integer value. Default is 0.
 
 	// Let's make sure everything is entered in OK.
-	if ((year < 1935) && (year > 2015) && (year % 5 == 0))
-		return 'ERROR --> getDeductedValue: Please enter valid year';
+	if ((year >= 1935) && (year <= 2015) && (year % 5 == 0)) {
+
 	if (value < 0)
 		return 'ERROR --> getDeductedValue: I know you\'re broke, but you gotta enter at least $0';
 	if (deductionType != 'single' && deductionType != 'head of household' && deductionType != "married couple" && deductionType != undefined)
@@ -108,6 +108,8 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 	if (exemptionType == "single person" || exemptionType == undefined)
 		exemptionCount = 1 + numberOfDependents;
 
+	// FOR YEARS 1970 AND LATER:
+	if (year >= 1970) {
 	// Pull the data for the given year
 	for (var i = 0; i < usDeduction.length; i++) {
 		if (usDeduction[i]["year"] == year) {
@@ -115,6 +117,15 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 			var exemptionTotal = usDeduction[i]["exemption"]["single person"] * exemptionCount;
 		}
 	}
+	}
+	else if (year >= 1945 && year < 1970) {
+		// THAT SPECIAL CASE
+	}
+	else if (year == 1935 || year == 1940) {
+		// THAT OTHER SPECIAL CASE
+	}
+	else
+		return 'ERROR --> getDeductedValue: Something weird happened...'
 
 	// Return the original value less the sum of exemptions and deduction.
 	var result = value - (deductionTotal + exemptionTotal);
@@ -122,6 +133,10 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 		return 0;
 	else
 		return result;
+	}
+
+	else
+		return 'ERROR --> getDeductedValue: Please enter valid year';
 }
 
 
@@ -130,9 +145,28 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 //************* Pay the Taxes *********************
 //*************************************************
 
-function taxesDue(value, year1, year2) {
+function taxesDue(value, year1, year2, deductionType, exemptionType, numberOfDependents) {
 	// value in year1 owes ??? in year2
 	// Output: "You would owe $$$ in Federal Income Tax in the year YEAR2, which would be about $$$ in YEAR1"
+	// Value is any positive integer in USD
+	// year1 is any year between 1935 and 2015, falling every five years.
+	// year2 is an optional value. Default value is set to match year1.
+
+	// Let's make sure everything is OK
+	if ((year1 >= 1935) && (year1 <= 2015) && (year2 >= 1935) && (year2 <= 2015) && (year1 % 5 == 0) && (year2 % 5 == 0)) {
+	if (value < 0)
+		return 'ERROR --> getDeductedValue: I know you\'re broke, but you gotta enter at least $0';
+	if (deductionType != 'single' && deductionType != 'head of household' && deductionType != "married couple" && deductionType != undefined)
+		return 'ERROR --> getDeductedValue: Deduction Type can only be \'single\', \'head of household\' or \'married couple\'.'
+	if (exemptionType != 'married person' && exemptionType != 'single person' && exemptionType != undefined)
+		return 'ERROR --> getDeductedValue: Exemption type can only be \'married person\' or \'single person\'.'
+	
+	// CODE GOES HERE
+
+
+	}
+	else
+		return 'ERROR --> taxesDue: Please enter valid years';
 }
 
 
@@ -140,7 +174,7 @@ function taxesDue(value, year1, year2) {
 //*************  Run Some Tests!  *****************
 //*************************************************
 	
-console.log(getDeductedValue(20000, 1985, "single", "single person", 4));
+console.log(getDeductedValue(20000, 1945, "single", "single person", 4));
 
 
 
