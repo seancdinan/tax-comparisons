@@ -60,9 +60,6 @@ var usDeduction = JSON.parse(rawUsDeduction);
 	
 function yearAdjuster(value, year1, year2) {
 	// value in year1 equals ??? in year2
-	// value = amount in USD.
-	// year1 = Year of current value.
-	// year2 = Target year of output value.
 	if ((year1 >= 1935) && (year1 <= 2015) && (year2 >= 1935) && (year2 <= 2015) && (year1 % 5 == 0) && (year2 % 5 == 0)) {
 		for (var i = 0; i < usMedianIncome.length; i++) {
 			if (usMedianIncome[i]["year"] == year1) {
@@ -77,10 +74,26 @@ function yearAdjuster(value, year1, year2) {
 		return value * (medianNow1 / medianThen1) * (medianThen2 / medianNow2);
 	}
 	else
-		console.log('ERROR: Please enter valid years.')
+		console.log('ERROR --> yearAdjuster: Please enter valid years')
 }
 
-console.log(yearAdjuster(2000, 1935, 2000));
+function getDeductedValue(value, year, numberOfExemptions) {
+	// Determine the value to be taxed in the given year after standard deduction and exemptions are removed
+	// 'value' should already be adjusted to 'year' value
+	// 'year' must be between 1935 and 2015 and end in a 5 or a 0
+	// Number of exemptions can be any positive integer value
+}
+
+
+
+//*************************************************
+//************* Pay the Taxes *********************
+//*************************************************
+
+function taxesDue(value, year1, year2) {
+	// value in year1 owes ??? in year2
+	// Output: "You would owe $$$ in Federal Income Tax in the year YEAR2, which would be about $$$ in YEAR1"
+}
 
 
 
