@@ -1,63 +1,22 @@
 //*************************************************
 //***************** Load in the Data **************
 //*************************************************
-
-// ***** Historical US Median Incomes, 1935 to Present *****
-// Format:
-// 	"year": value,
-// 	"data": [nominalIncome, presentValueIn2015],
-// 	"source": "source info"
 var rawMedianIncome = require('./us_historical_median_incomes.js');
 var usMedianIncome = JSON.parse(rawMedianIncome);
 
-// ***** Median Incomes of Various Countries *****
-// Format:
-// 	"continent": "Continent name",
-// 	"country": "Country name",
-// 	"median household income(usd)": valueIn2015,
-// 	"source": "source info"
 var rawGlobalIncome = require('./global_median_incomes.js');
 var globalMedianIncome = JSON.parse(rawGlobalIncome);
 
-// ***** Historical US Tax Brackets, 1935 to Present *****
-// Format:
-// 	"year": value,
-// 	"rates":
-// 		"married filing jointly": [[tax brackets], [percentAsDecimal, minDollars, maxDollars]],
-// 		"married filing separately": [same],
-// 		"single": [same],
-// 		"head of household": [same],
-// 	"source": "source info",
-// 	"notes": "any relevant notes"
 var rawUsTaxRate = require('./us_historical_income_tax_rates.js');
 var usTaxRate = JSON.parse(rawUsTaxRate);
 
-// ***** Historical US Standard Deductions and Personal Exemptions, 1935 to Present *****
-// Format:
-// 	"year": value,
-// 	"exemption":
-// 		"married person": value,
-// 		"single person": value,
-// 		"amount per dependent": value,
-// 		"source": "source info"
-// 	"deduction":
-// 		"single": value,
-// 		"head of household": value,
-// 		"married couple": value,
-// 		"source": "source info",
-// 		"notes": "Optional area for notes (may not exist)"
-// 
-// General Notes:
-// 	- Deduction value will be $0 if none was allowed.
-// 	- Deduction value will be null if special situation applies
-// 			- See a given year's notes for specifics
 var rawUsDeduction = require('./us_historical_deductions_exemptions.js');
 var usDeduction = JSON.parse(rawUsDeduction);
 
 //*************************************************
 //************ Helper Functions *******************
 //*************************************************
-	
+// Takes an amount of $$$ from year1 and adjusts it to year2 dollars
 function yearAdjuster(value, year1, year2) {
 	// value in year1 equals ??? in year2
 	if ((year1 >= 1935) && (year1 <= 2015) && (year2 >= 1935) && (year2 <= 2015) && (year1 % 5 == 0) && (year2 % 5 == 0)) {
@@ -77,6 +36,7 @@ function yearAdjuster(value, year1, year2) {
 		console.log('ERROR --> yearAdjuster: Please enter valid years')
 }
 
+// Given a value, year, and optional parameters, returns the value minus applicable deductions and exemptions
 function getDeductedValue(value, year, deductionType, exemptionType, numberOfDependents) {
 	// Determine the value to be taxed in the given year after standard deduction and exemptions are removed
 	// 'value' should already be adjusted to 'year' value
@@ -143,11 +103,24 @@ function getDeductedValue(value, year, deductionType, exemptionType, numberOfDep
 		return 'ERROR --> getDeductedValue: Please enter valid year';
 }
 
+function getNationIncome(nation) {
+	var countryTester = false;
+	for (var i = 0; i < globalMedianIncome.length; i++) {
+		if (countryTester == false) {
+			if (globalMedianIncome[i]["country"] == nation) {
+				countryTester = true;
+				medianIncome = globalMedianIncome[i]["median household income(usd)"];
+				return medianIncome;
+			}
+		}
+	}
+	return 'ERROR --> getNationIncome: Country chosen not in database.'
+}
 
 //*************************************************
 //************* Pay the Taxes *********************
 //*************************************************
-
+// Answers the question: If I earned $value in year1, how much would I owe if it was a year2 tax plan then instead of a year1 one?
 function taxesDue(value, year1, year2, filingType, deductionType, exemptionType, numberOfDependents) {
 	// value in year1 owes ??? in year2
 	// Output: "You would owe $$$ in Federal Income Tax in the year YEAR2, which would be about $$$ in YEAR1"
@@ -221,7 +194,7 @@ function taxesDue(value, year1, year2, filingType, deductionType, exemptionType,
 //*************************************************
 //************  Compare 2 Years   *****************
 //*************************************************
-
+// Compares the amounts that would be due in year1 if you made $value and were taxed with either year1 or year2 tax plans. 
 function yearComparer(value, year1, year2, filingType, deductionType, exemptionType, numberOfDependents) {
 	var year1Value = taxesDue(value,year1,year1,filingType,deductionType,exemptionType,numberOfDependents);
 	var year2Value = yearAdjuster(taxesDue(yearAdjuster(value,year1,year2),year2,year2,filingType,deductionType,exemptionType,numberOfDependents),year2,year1);
@@ -236,7 +209,7 @@ function yearComparer(value, year1, year2, filingType, deductionType, exemptionT
 //*************************************************
 //*********** Compare 2 Countries *****************
 //*************************************************
-
+// Compares the median incomes of two countries.
 function countryComparer(country1, country2) {
 	// Make sure the 2 countries are on the list.
 	var country1Tester = false;
@@ -266,12 +239,18 @@ function countryComparer(country1, country2) {
 					'.\nThat\'s a difference of $', difference.toFixed(2), ' (', (diffPercent*100).toFixed(2), '%).\n'].join('')
 }
 
+// If I made $value, how does that compare to median income in x country?
+function myIncomeVsTheirs(value, country) {
+	var theirValue = getNationIncome(country);
+	var diffPercent = ((value - theirValue)/theirValue) * 100; diffPercent = diffPercent.toFixed(2);
 
+	return ['If you made $',value,' you earned ',diffPercent,'% more than the median for ', country,'.'].join('')
+}
 
 //*************************************************
 //*************  Run Some Tests!  *****************
 //*************************************************
-console.log(countryComparer('United Kingdom', 'South Africa'))
+console.log(myIncomeVsTheirs(50000,"United Kingdom"))	
 
 
 

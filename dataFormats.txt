@@ -1,0 +1,42 @@
+ ***** Historical US Median Incomes, 1935 to Present *****
+ Format:
+ 	"year": value,
+ 	"data": [nominalIncome, presentValueIn2015],
+ 	"source": "source info"
+
+ ***** Median Incomes of Various Countries *****
+ Format:
+ 	"continent": "Continent name",
+ 	"country": "Country name",
+ 	"median household income(usd)": valueIn2015,
+ 	"source": "source info"
+
+ ***** Historical US Tax Brackets, 1935 to Present *****
+ Format:
+ 	"year": value,
+ 	"rates":
+ 		"married filing jointly": [[tax brackets], [percentAsDecimal, minDollars, maxDollars]],
+ 		"married filing separately": [same],
+ 		"single": [same],
+ 		"head of household": [same],
+ 	"source": "source info",
+ 	"notes": "any relevant notes"
+ 	
+ ***** Historical US Standard Deductions and Personal Exemptions, 1935 to Present *****
+ Format:
+ 	"year": value,
+ 	"exemption":
+ 		"married person": value,
+ 		"single person": value,
+ 		"amount per dependent": value,
+ 		"source": "source info"
+ 	"deduction":
+ 		"single": value,
+ 		"head of household": value,
+ 		"married couple": value,
+ 		"source": "source info",
+ 		"notes": "Optional area for notes (may not exist)"
+ General Notes:
+ 	- Deduction value will be $0 if none was allowed.
+ 	- Deduction value will be null if special situation applies
+ 			- See a given year's notes for specifics
