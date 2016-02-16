@@ -1,0 +1,883 @@
+{
+	"state": "Alabama",
+	"income tax": {
+		"single": [[0.02, 0, 500],[0.04, 500, 3000],[0.05,3000,null]],
+		"married": [[0.02,0,1000],[0.04,1000,6000], [0.05,6000,null]],
+		"standard deduction":{
+			"single": 2500,
+			"couple": 7500
+		},
+		"personal exemption":{
+			"single": 1500,
+			"couple": 3000,
+			"dependent": 1000
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Alaska",
+	"income tax": {
+		"single": [null],
+		"married": [null],
+		"standard deduction":{
+			"single": null,
+			"couple": null
+		},
+		"personal exemption":{
+			"single": null,
+			"couple": null,
+			"dependent": null
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Arizona",
+	"income tax": {
+		"single": [[0.0259, 0, 10000],[0.0288, 10000, 25000],[0.0366, 25000, 50000],[0.0424, 50000, 150000],[0.0454,150000,null]],
+		"married": [[0.0259, 0, 20000],[0.0288, 20000, 50000],[0.0366, 50000, 100000],[0.0424, 100000, 300000],[0.0454,300000,null]],
+		"standard deduction":{
+			"single": 5009,
+			"couple": 10010
+		},
+		"personal exemption":{
+			"single": 2100,
+			"couple": 4200,
+			"dependent": 2300
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Arkansas",
+	"income tax": {
+		"single": [[0.01, 0, 4299],[0.025, 4299, 8399],[0.035,8399,12599],[0.045, 12599, 20999],[0.060, 20999, 25099],[0.07, 35099, null]],
+		"married": [[0.01, 0, 4299],[0.025, 4299, 8399],[0.035,8399,12599],[0.045, 12599, 20999],[0.060, 20999, 25099],[0.07, 35099, null]],
+		"standard deduction":{
+			"single": 2000,
+			"couple": 4000
+		},
+		"personal exemption":{
+			"single": 26,
+			"couple": 52,
+			"dependent": 26
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "California",
+	"income tax": {
+		"single": [[0.01, 0, 7749],[0.02, 7749, 18371],[0.04, 18371, 28995],[0.06, 28995, 40250],[0.08, 40250, 50689],[0.093, 50689, 259844],[0.101, 259844, 311812],[0.113, 311812, 519867],[0.123, 519867, 1000000],[0.133, 1000000, null]],
+		"married": [[0.01, 0, 15498],[0.02, 15498, 36742],[0.04, 36742, 57990],[0.06, 57990, 80500],[0.08, 80500, 101738],[0.093, 101738, 519688],[0.103, 519688, 623624],[0.113, 623624, 1000000],[0.123, 1000000, 1039374],[0.133, 1039374, null]],
+		"standard deduction":{
+			"single": 3992,
+			"couple": 7984
+		},
+		"personal exemption":{
+			"single": 108,
+			"couple": 216,
+			"dependent": 333
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Colorado",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes": "******* SPECIAL CASE ********"
+},
+{
+	"state": "Connecticut",
+	"income tax": {
+		"single": [[0.03, 0, 10000],[0.05, 10000, 50000],[0.055, 50000, 100000],[0.06, 100000, 200000],[0.065, 200000, 250000],[0.067, 250000, null]],
+		"married": [[0.03, 0, 20000],[0.05, 20000, 100000],[0.055, 100000, 200000],[0.06, 200000, 400000],[0.065, 400000, 500000],[0.067, 500000, null]],
+		"standard deduction":{
+			"single": 0,
+			"couple": 0
+		},
+		"personal exemption":{
+			"single": 15000,
+			"couple": 24000,
+			"dependent": 0
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Delaware",
+	"income tax": {
+		"single": [[0.022, 2000, 5000],[0.039, 5000, 10000],[0.048, 10000, 20000],[0.052, 20000, 25000],[0.0555, 25000, 60000],[0.066, 60000, null]],
+		"married": [[0.022, 2000, 5000],[0.039, 5000, 10000],[0.048, 10000, 20000],[0.052, 20000, 25000],[0.0555, 25000, 60000],[0.066, 60000, null]],
+		"standard deduction":{
+			"single": 3250,
+			"couple": 6500
+		},
+		"personal exemption":{
+			"single": 110,
+			"couple": 220,
+			"dependent": 110
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Florida",
+	"income tax": {
+		"single": null,
+		"married": null,
+		"standard deduction":{
+			"single": null,
+			"couple": null
+		},
+		"personal exemption":{
+			"single": null,
+			"couple": null,
+			"dependent": null
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Georgia",
+	"income tax": {
+		"single": [[0.01, 0, 750],[0.02, 750, 2250],[0.03, 2250, 3750],[0.04, 3750, 5250],[0.05, 5250, 7000],[0.06, 7000, null]],
+		"married": [[0.01, 0, 1000],[0.02, 1000, 3000],[0.03, 3000, 5000],[0.04, 5000, 7000],[0.05, 7000, 10000],[0.06, 10000, null]],
+		"standard deduction":{
+			"single": 2300,
+			"couple": 3000
+		},
+		"personal exemption":{
+			"single": 2700,
+			"couple": 7400,
+			"dependent": 3000
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Hawaii",
+	"income tax": {
+		"single": [[0.014, 0, 2400],[0.032, 2400, 4800],[0.055, 4800, 9600],[0.064, 9600, 14400],[0.068, 14400, 19200],[0.072, 19200, 24000],[0.076, 24000, 36000],[0.079, 36000, 48000],[0.0825, 48000, 150000],[0.09, 150000, 175000],[0.10, 175000, 200000],[0.11, 200000, null]],
+		"married": [[0.014, 0, 4800],[0.032, 4800, 9600],[0.055, 9600, 19200],[0.064, 19200, 28800],[0.068, 28800, 38400],[0.072, 38400, 48000],[0.076, 48000, 72000],[0.079, 72000, 96000],[0.0825, 96000, 300000],[0.09, 300000, 350000],[0.10, 350000, 400000],[0.11, 400000, null]],
+		"standard deduction":{
+			"single": 2200,
+			"couple": 4400
+		},
+		"personal exemption":{
+			"single": 1144,
+			"couple": 2288,
+			"dependent": 1144
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Idaho",
+	"income tax": {
+		"single": [YOU ARE HERE],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Illinois",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Indiana",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Iowa",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Kansas",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Kentucky",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Louisiana",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Maine",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Maryland",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Massachusetts",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Michigan",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Mississippi",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Missouri",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Montana",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Nebraska",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Nevada",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "New Hampshire",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "New Jersey",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "New Mexico",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "New York",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "North Carolina",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "North Dakota",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Ohio",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Oklahoma",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Oregon",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Pennsylvania",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Rhode Island",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "South Carolina",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "South Dakota",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Tennessee",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Texas",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Utah",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Vermont",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Virginia",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Washington",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "West Virginia",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Wisconsin",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Wyoming",
+	"income tax": {
+		"single": [],
+		"married": [],
+		"standard deduction":{
+			"single": ,
+			"couple": 
+		},
+		"personal exemption":{
+			"single": ,
+			"couple": ,
+			"dependent":
+		}
+		},
+	"sales tax": [],
+	"notes":
+}
+
