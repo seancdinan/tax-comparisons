@@ -1,0 +1,36 @@
+{
+"average income before taxes": 66877,
+"average annual expenditures": 53495, 
+  "food":{
+    "total": 6759, 
+    "food at home": 3971,
+    "food away from home": 2787 
+  },
+  "housing":{
+    "total": 17798, 
+    "shelter":{
+      "total": 10491, 
+      "owned dwellings": 6149, 
+      "rented dwellings": 3631
+      }
+      }, 
+  "apparel and services":{
+    "total": 1786,
+    },
+  "transportation":{
+    "total": 9073, 
+    "gasoline and motor oil": 2468, 
+    "vehicle insurance": 1112
+    }, 
+  "healthcare":{
+    "total": 4290, 
+    "health insurance": 2868
+    }, 
+  "entertainment":{
+    "total": 2728
+    }, 
+  "cash contributions": 1788, 
+  "personal insurance and pensions": 5726, 
+  "all other expenditures": 3548,
+  "source": "http://www.bls.gov/news.release/cesan.nr0.htm" 
+}
