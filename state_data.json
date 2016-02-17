@@ -1,4 +1,7 @@
 {
+	"source": "Jared Walczak, 'State Individual Income Tax Rates & Brackets for 2015', Tax Foundation Fiscal Fact, Apr. 2015, No. 462"
+},
+{
 	"state": "Alabama",
 	"income tax": {
 		"single": [[0.02, 0, 500],[0.04, 500, 3000],[0.05,3000,null]],
@@ -199,16 +202,16 @@
 {
 	"state": "Idaho",
 	"income tax": {
-		"single": [YOU ARE HERE],
-		"married": [],
+		"single": [[0.016, 0, 1428],[0.036, 1428, 2857],[0.041, 2857, 4286],[0.051, 4286, 5715],[0.061, 5715, 7144],[0.071, 7144, 10717],[0.074, 10717, null]],
+		"married": [[0.016, 0, 2857],[0.036, 2857, 5715],[0.041, 5715, 8573],[0.051, 8573, 11431],[0.061, 11431, 14289],[0.071, 14289, 21436],[0.074, 21436, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 8000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -230,7 +233,7 @@
 		}
 		},
 	"sales tax": [],
-	"notes":
+	"notes": "***** SPECIAL CASE *****"
 },
 {
 	"state": "Indiana",
@@ -248,21 +251,21 @@
 		}
 		},
 	"sales tax": [],
-	"notes":
+	"notes": "***** SPECIAL CASE *****"
 },
 {
 	"state": "Iowa",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0036, 0, 1539],[0.0072, 1539, 3078],[0.0243, 3078, 6156],[0.045, 6156, 13851],[0.0612, 13851, 23085],[0.0648, 23085, 30780],[0.068, 30780, 46170],[0.0792, 46170, 69255],[0.0898, 69255, null]],
+		"married": [[0.0036, 0, 1539],[0.0072, 1539, 3078],[0.0243, 3078, 6156],[0.045, 6156, 13851],[0.0612, 13851, 23085],[0.0648, 23085, 30780],[0.068, 30780, 46170],[0.0792, 46170, 69255],[0.0898, 69255, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 1950,
+			"couple": 4810
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 40,
+			"couple": 80,
+			"dependent": 40
 		}
 		},
 	"sales tax": [],
@@ -271,16 +274,16 @@
 {
 	"state": "Kansas",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.027, 0, 15000],[0.046, 15000, null]],
+		"married": [[0.027, 0, 30000],[0.046, 30000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 3000,
+			"couple": 7500
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2250,
+			"couple": 4500,
+			"dependent": 2250
 		}
 		},
 	"sales tax": [],
@@ -289,16 +292,16 @@
 {
 	"state": "Kentucky",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.02, 0, 3000],[0.03, 3000, 4000],[0.04, 4000, 5000],[0.05, 5000, 8000],[0.058, 8000, 75000],[0.06, 75000, null]],
+		"married": [[0.02, 0, 3000],[0.03, 3000, 4000],[0.04, 4000, 5000],[0.05, 5000, 8000],[0.058, 8000, 75000],[0.06, 75000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 2440,
+			"couple": 2440
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 20,
+			"couple": 40,
+			"dependent": 20
 		}
 		},
 	"sales tax": [],
@@ -307,16 +310,16 @@
 {
 	"state": "Louisiana",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.02, 0, 12500],[0.04, 12500, 50000],[0.06, 50000, null]],
+		"married": [[0.02, 0, 25000],[0.04, 25000, 100000],[0.06, 100000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4500,
+			"couple": 9000,
+			"dependent": 1000
 		}
 		},
 	"sales tax": [],
@@ -325,16 +328,16 @@
 {
 	"state": "Maine",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0, 0, 5199],[0.065, 5199, 20899],[0.0795, 20899, null]],
+		"married": [[0, 0, 10449],[0.065, 10499, 41849],[0.0795, 41849, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 8000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -343,16 +346,16 @@
 {
 	"state": "Maryland",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.02, 0, 1000],[0.03, 1000, 2000],[0.04, 2000, 3000],[0.0475, 3000, 100000],[0.05, 100000, 125000],[0.0525, 125000, 150000],[0.055, 150000, 250000],[0.0575, 250000, null]],
+		"married": [[0.02, 0, 1000],[0.03, 1000, 2000],[0.04, 2000, 3000],[0.0475, 3000, 150000],[0.05, 150000, 175000],[0.0525, 175000, 225000],[0.055, 225000, 300000],[0.0575, 300000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 2000,
+			"couple": 4000
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 3200,
+			"couple": 6400,
+			"dependent": 3200
 		}
 		},
 	"sales tax": [],
@@ -361,16 +364,16 @@
 {
 	"state": "Massachusetts",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0515, 0, null]],
+		"married": [[0.0515, 0, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4400,
+			"couple": 8800,
+			"dependent": 1000
 		}
 		},
 	"sales tax": [],
@@ -392,21 +395,39 @@
 		}
 		},
 	"sales tax": [],
+	"notes": "***** SPECIAL CASE *****"
+},
+{
+	"state": "Minnesota",
+	"income tax": {
+		"single": [[0.0535, 0, 25070],[0.0705, 25070, 82360],[0.0785, 82360, 154950],[0.0985, 154950, null]],
+		"married": [[0.0535, 0, 36650],[0.0705, 36650, 145620],[0.0785, 145620, 258260],[0.0985, 258260, null]],
+		"standard deduction":{
+			"single": 6300,
+			"couple": 12600
+		},
+		"personal exemption":{
+			"single": 4000,
+			"couple": 8000,
+			"dependent": 4000
+		}
+		},
+	"sales tax": [],
 	"notes":
 },
 {
 	"state": "Mississippi",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.03, 0, 5000],[0.04, 5000, 10000],[0.05, 10000, null]],
+		"married": [[0.03, 0, 5000],[0.04, 5000, 10000],[0.05, 10000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 2300,
+			"couple": 4600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 6000,
+			"couple": 12000,
+			"dependent": 1500
 		}
 		},
 	"sales tax": [],
@@ -415,16 +436,16 @@
 {
 	"state": "Missouri",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.015, 0, 1000],[0.02, 1000, 2000],[0.025, 2000, 3000],[0.03, 3000, 4000],[0.035, 4000, 5000],[0.04, 5000, 6000],[0.045, 6000, 7000],[0.05, 7000, 8000],[0.055, 8000, 9000],[0.06, 9000, null]],
+		"married": [[0.015, 0, 1000],[0.02, 1000, 2000],[0.025, 2000, 3000],[0.03, 3000, 4000],[0.035, 4000, 5000],[0.04, 5000, 6000],[0.045, 6000, 7000],[0.05, 7000, 8000],[0.055, 8000, 9000],[0.06, 9000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600 
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2100,
+			"couple": 4200,
+			"dependent": 1200
 		}
 		},
 	"sales tax": [],
@@ -433,16 +454,16 @@
 {
 	"state": "Montana",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.01, 0, 2800],[0.02, 2800, 5000],[0.03, 5000, 7600],[0.04, 7600, 10300],[0.05, 10300, 13300],[0.06, 13300, 17000],[0.069, 17000, null]],
+		"married": [[0.01, 0, 2800],[0.02, 2800, 5000],[0.03, 5000, 7600],[0.04, 7600, 10300],[0.05, 10300, 13300],[0.06, 13300, 17000],[0.069, 17000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 4370,
+			"couple": 8740
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2330,
+			"couple": 4660,
+			"dependent": 2330
 		}
 		},
 	"sales tax": [],
@@ -451,16 +472,16 @@
 {
 	"state": "Nebraska",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0246, 0, 3050],[0.0351, 3050, 18280],[0.0501, 18280, 29460],[0.0684, 29460, null]],
+		"married": [[0.0246, 0, 6090],[0.0351, 6090, 36570],[0.0501, 36570, 58920],[0.0684, 58920, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 5800,
+			"couple": 11600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 130,
+			"couple": 260,
+			"dependent": 130
 		}
 		},
 	"sales tax": [],
@@ -469,52 +490,52 @@
 {
 	"state": "Nevada",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": 0,
+		"married": 0,
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
-	"notes":
+	"notes": "No income tax in Nevada."
 },
 {
 	"state": "New Hampshire",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.05, 0, null]],
+		"married": [[0.05, 0, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2400,
+			"couple": 4800,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
-	"notes":
+	"notes": "***** SPECIAL CASE *****"
 },
 {
 	"state": "New Jersey",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.014, 0, 20000],[0.0175, 20000, 35000],[0.0350, 35000, 40000],[0.05525, 40000, 75000],[0.0637, 75000, 500000],[0.0897, 500000, null]],
+		"married": [[0.014, 0, 20000],[0.0175, 20000, 50000],[0.0245, 50000, 70000],[0.035, 70000, 80000],[0.05525, 80000, 150000],[0.0637, 150000, 500000],[0.0897, 500000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 1000,
+			"couple": 2000,
+			"dependent": 1500
 		}
 		},
 	"sales tax": [],
@@ -523,16 +544,16 @@
 {
 	"state": "New Mexico",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.017, 0, 5500],[0.0332, 5500, 11000],[0.047, 11000, 16000],[0.049, 16000, null]],
+		"married": [[0.017, 0, 8000],[0.032, 8000, 16000],[0.047, 16000, 24000],[0.049, 24000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600 
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 4000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -541,16 +562,16 @@
 {
 	"state": "New York",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.04, 0, 8400],[0.045, 8400, 11600],[0.0525, 11600, 13750],[0.059, 13750, 21150],[0.0645, 21150, 79600],[0.0665, 79600, 212500],[0.0685, 212500, 1062650],[0.0882, 1062650, null]],
+		"married": [[0.04, 0, 16950],[0.045, 16950, 23300],[0.0525, 23300, 27550],[0.059, 27550, 42450],[0.0645, 42450, 159350],[0.0665, 159350, 318750],[0.0685, 318750, 2125450],[0.0882, 2125450, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 7900,
+			"couple": 15850
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 1000
 		}
 		},
 	"sales tax": [],
@@ -559,16 +580,16 @@
 {
 	"state": "North Carolina",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0575, 0, null]],
+		"married": [[0.0575, 0, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 7500,
+			"couple": 15000
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -577,16 +598,16 @@
 {
 	"state": "North Dakota",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0122, 0, 36900],[0.0227, 36900, 89350],[0.0252, 89350, 186350],[0.0293, 186350, 405100],[0.0322, 405100, null]],
+		"married": [[0.0122, 0, 61700],[0.0227, 61700, 148850],[0.0252, 148850, 226850],[0.0293, 226850, 405100],[0.0322, 405100, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 8000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -595,16 +616,16 @@
 {
 	"state": "Ohio",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0528, 0, 5200],[0.01057, 5200, 10400],[0.02113, 10400, 15650],[0.02642, 15650, 20900],[0.03169, 20900, 41700],[0.03698, 41700, 83350],[0.04226, 83350, 104250],[0.04906, 104250, 208500],[0.05333, 208500, null]],
+		"married": [[0.0528, 0, 5200],[0.01057, 5200, 10400],[0.02113, 10400, 15650],[0.02642, 15650, 20900],[0.03169, 20900, 41700],[0.03698, 41700, 83350],[0.04226, 83350, 104250],[0.04906, 104250, 208500],[0.05333, 208500, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2200,
+			"couple": 4400,
+			"dependent": 2200
 		}
 		},
 	"sales tax": [],
@@ -613,16 +634,16 @@
 {
 	"state": "Oklahoma",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.005, 0, 1000],[0.01, 1000, 2500],[0.02, 2500, 3750],[0.03, 3750, 4900],[0.04, 4900, 7200],[0.05, 7200, 8700],[0.0525, 8700, null]],
+		"married": [[0.005, 0, 2000],[0.01, 2000, 5000],[0.02, 5000, 7500],[0.03, 7500, 9800],[0.04, 9800, 12200],[0.05, 12200, 15000],[0.0525, 15000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 5950,
+			"couple": 11900
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 1000,
+			"couple": 2000,
+			"dependent": 1000
 		}
 		},
 	"sales tax": [],
@@ -631,16 +652,16 @@
 {
 	"state": "Oregon",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.05, 0, 3350],[0.07, 3350, 8400],[0.09, 8400, 125000],[0.099, 125000, null]],
+		"married": [[0.05, 0, 6700],[0.07, 6700, 16800],[0.09, 16800, 250000],[0.099, 250000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 2145,
+			"couple": 4295 
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 194,
+			"couple": 388,
+			"dependent": 194
 		}
 		},
 	"sales tax": [],
@@ -649,16 +670,16 @@
 {
 	"state": "Pennsylvania",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0307, 0, null]],
+		"married": [[0.0307, 0, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -667,16 +688,16 @@
 {
 	"state": "Rhode Island",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0375, 0, 60500],[0.0475, 60500, 137650],[0.0599, 137650, null]],
+		"married": [[0.0375, 0, 60500],[0.0475, 60500, 137650],[0.0599, 137650, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 8275,
+			"couple": 16550
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 3850,
+			"couple": 7700,
+			"dependent": 3850
 		}
 		},
 	"sales tax": [],
@@ -685,16 +706,16 @@
 {
 	"state": "South Carolina",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0, 0, 2880],[0.03, 2880, 5760],[0.04, 5760, 8640],[0.05, 8640, 11520],[0.06, 11520, 14400],[0.07, 14400, null]],
+		"married": [[0, 0, 2880],[0.03, 2880, 5760],[0.04, 5760, 8640],[0.05, 8640, 11520],[0.06, 11520, 14400],[0.07, 14400, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 8000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -703,16 +724,16 @@
 {
 	"state": "South Dakota",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": 0,
+		"married": 0,
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -721,16 +742,16 @@
 {
 	"state": "Tennessee",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.06, 0, null]],
+		"married": [[0.06, 0, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 1250,
+			"couple":  2500,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -739,16 +760,16 @@
 {
 	"state": "Texas",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": 0,
+		"married": 0,
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -757,34 +778,34 @@
 {
 	"state": "Utah",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.05, 0, null]],
+		"married": [[0.05, 0, null]],
 		"standard deduction":{
 			"single": ,
 			"couple": 
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 3000,
+			"couple": 6000,
+			"dependent": 3000
 		}
 		},
 	"sales tax": [],
-	"notes":
+	"notes": "***** SPECIAL CASE *****"
 },
 {
 	"state": "Vermont",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.0355, 0, 37450],[0.0680, 37450, 90750],[0.0780, 90750, 189300],[0.0880, 189300, 411500],[0.0895, 411500, null]],
+		"married": [[0.0355, 0, 62600],[0.0680, 62600, 151200],[0.0780, 151200, 230450],[0.0880, 230450, 411500],[0.0895, 411500, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 6300,
+			"couple": 12600
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 4000,
+			"couple": 4000,
+			"dependent": 4000
 		}
 		},
 	"sales tax": [],
@@ -793,16 +814,16 @@
 {
 	"state": "Virginia",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.02, 0, 3000],[0.03, 3000, 5000],[0.05, 5000, 17000],[0.0575, 17000, null]],
+		"married": [[0.02, 0, 3000],[0.03, 3000, 5000],[0.05, 5000, 17000],[0.0575, 17000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 3000,
+			"couple": 6000
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 930,
+			"couple": 1860,
+			"dependent": 930
 		}
 		},
 	"sales tax": [],
@@ -811,16 +832,16 @@
 {
 	"state": "Washington",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": 0,
+		"married": 0,
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
 		}
 		},
 	"sales tax": [],
@@ -829,16 +850,16 @@
 {
 	"state": "West Virginia",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.03, 0, 10000],[0.04, 10000, 25000],[0.045, 25000, 40000],[0.06, 40000, 60000],[0.065, 60000, null]],
+		"married": [[0.03, 0, 10000],[0.04, 10000, 25000],[0.045, 25000, 40000],[0.06, 40000, 60000],[0.065, 60000, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 2000,
+			"couple": 4000,
+			"dependent": 2000
 		}
 		},
 	"sales tax": [],
@@ -847,16 +868,16 @@
 {
 	"state": "Wisconsin",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": [[0.04, 0, 11090],[0.0584, 11090, 22190],[0.0627, 22190, 244270],[0.0765, 244270, null]],
+		"married": [[0.04, 0, 14790],[0.0584, 14790, 29580],[0.0627, 29580, 325700],[0.0765, 325700, null]],
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 10250,
+			"couple": 18460
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 700,
+			"couple": 1400,
+			"dependent": 700
 		}
 		},
 	"sales tax": [],
@@ -865,16 +886,34 @@
 {
 	"state": "Wyoming",
 	"income tax": {
-		"single": [],
-		"married": [],
+		"single": 0,
+		"married": 0,
 		"standard deduction":{
-			"single": ,
-			"couple": 
+			"single": 0,
+			"couple": 0
 		},
 		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
+			"single": 0,
+			"couple": 0,
+			"dependent": 0
+		}
+		},
+	"sales tax": [],
+	"notes":
+},
+{
+	"state": "Washington DC",
+	"income tax": {
+		"single": [[0.04, 0, 10000],[0.06, 10000, 40000],[0.07, 40000, 60000],[0.085, 60000, 350000],[0.0895, 350000, null]],
+		"married": [[0.04, 0, 10000],[0.06, 10000, 40000],[0.07, 40000, 60000],[0.085, 60000, 350000],[0.0895, 350000, null]],
+		"standard deduction":{
+			"single": 5200,
+			"couple": 6650
+		},
+		"personal exemption":{
+			"single": 2200,
+			"couple": 2200,
+			"dependent": 2200
 		}
 		},
 	"sales tax": [],
