@@ -16,7 +16,8 @@
 			"dependent": 1000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0995, 1, "http://taxfoundation.org/state-tax-climate/alabama"],
+	"special cases": ["b","f"],
 	"notes":
 },
 {
@@ -34,7 +35,8 @@
 			"dependent": null
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0176, 1, "http://taxfoundation.org/state-tax-climate/alaska"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -52,7 +54,8 @@
 			"dependent": 2300
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0817, 0, "http://taxfoundation.org/state-tax-climate/arizona"],
+	"special cases": ["d","e"],
 	"notes":
 },
 {
@@ -70,7 +73,8 @@
 			"dependent": 26
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0926, 0.16, "http://taxfoundation.org/state-tax-climate/arkansas"],
+	"special cases": ["d","e"],
 	"notes":
 },
 {
@@ -88,25 +92,14 @@
 			"dependent": 333
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0844, 0.5, "http://taxfoundation.org/state-tax-climate/california"],
+	"special cases": ["a","e","r","s"],
 	"notes":
 },
 {
 	"state": "Colorado",
-	"income tax": {
-		"single": [],
-		"married": [],
-		"standard deduction":{
-			"single": ,
-			"couple": 
-		},
-		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
-		}
-		},
-	"sales tax": [],
+	"sales tax": [0.0744, 0,"http://taxfoundation.org/state-tax-climate/colorado"],
+	"special cases": ["Colorado"],
 	"notes": "******* SPECIAL CASE ********"
 },
 {
@@ -124,7 +117,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0635,0,"http://taxfoundation.org/state-tax-climate/connecticut"],
+	"special cases": ["t","u"],
 	"notes":
 },
 {
@@ -142,7 +136,8 @@
 			"dependent": 110
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0,1,"http://taxfoundation.org/state-tax-climate/delaware"],
+	"special cases": ["f","r","v"],
 	"notes":
 },
 {
@@ -160,7 +155,8 @@
 			"dependent": null
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.065, 0, "http://taxfoundation.org/state-tax-climate/florida"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -178,7 +174,8 @@
 			"dependent": 3000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0696, 0.25, "http://taxfoundation.org/state-tax-climate/georgia"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -196,7 +193,8 @@
 			"dependent": 1144
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0435,1,"http://taxfoundation.org/state-tax-climate/hawaii"],
+	"special cases": ["w"],
 	"notes":
 },
 {
@@ -214,43 +212,20 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0601,1,"http://taxfoundation.org/state-tax-climate/idaho"],
+	"special cases": ["e","p"],
 	"notes":
 },
 {
 	"state": "Illinois",
-	"income tax": {
-		"single": [],
-		"married": [],
-		"standard deduction":{
-			"single": ,
-			"couple": 
-		},
-		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
-		}
-		},
-	"sales tax": [],
+	"sales tax": [0.0891,0.112,"http://taxfoundation.org/state-tax-climate/illinois"],
+	"special cases": ["Illinois"],
 	"notes": "***** SPECIAL CASE *****"
 },
 {
 	"state": "Indiana",
-	"income tax": {
-		"single": [],
-		"married": [],
-		"standard deduction":{
-			"single": ,
-			"couple": 
-		},
-		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
-		}
-		},
-	"sales tax": [],
+	"sales tax": [0.07,,"http://taxfoundation.org/state-tax-climate/indiana"],
+	"special cases": ["Indiana"],
 	"notes": "***** SPECIAL CASE *****"
 },
 {
@@ -268,7 +243,8 @@
 			"dependent": 40
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0678,0,"http://taxfoundation.org/state-tax-climate/iowa"],
+	"special cases": ["a","e","f","r"],
 	"notes":
 },
 {
@@ -286,7 +262,8 @@
 			"dependent": 2250
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.082,1,"http://taxfoundation.org/state-tax-climate/kansas"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -304,7 +281,8 @@
 			"dependent": 20
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.06,0,"http://taxfoundation.org/state-tax-climate/kentucky"],
+	"special cases": ["r"],
 	"notes":
 },
 {
@@ -322,7 +300,8 @@
 			"dependent": 1000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0891,0.5,"http://taxfoundation.org/state-tax-climate/louisiana"],
+	"special cases": ["f","n"],
 	"notes":
 },
 {
@@ -340,7 +319,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.055,0.5,"http://taxfoundation.org/state-tax-climate/maine"],
+	"special cases": ["e","p"],
 	"notes":
 },
 {
@@ -358,7 +338,8 @@
 			"dependent": 3200
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.06,0,"http://taxfoundation.org/state-tax-climate/maryland"],
+	"special cases": ["o","y"],
 	"notes":
 },
 {
@@ -376,25 +357,14 @@
 			"dependent": 1000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0625,0,"http://taxfoundation.org/state-tax-climate/massachusetts"],
+	"special cases": [null],
 	"notes":
 },
 {
 	"state": "Michigan",
-	"income tax": {
-		"single": [],
-		"married": [],
-		"standard deduction":{
-			"single": ,
-			"couple": 
-		},
-		"personal exemption":{
-			"single": ,
-			"couple": ,
-			"dependent":
-		}
-		},
-	"sales tax": [],
+	"sales tax": [0.06,0,"http://taxfoundation.org/state-tax-climate/michigan"],
+	"special cases": ["Michigan"],
 	"notes": "***** SPECIAL CASE *****"
 },
 {
@@ -412,7 +382,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.072,0,"http://taxfoundation.org/state-tax-climate/minnesota"],
+	"special cases": ["e","p"],
 	"notes":
 },
 {
@@ -430,7 +401,8 @@
 			"dependent": 1500
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0707,1,"http://taxfoundation.org/state-tax-climate/mississippi"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -448,7 +420,8 @@
 			"dependent": 1200
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0781,0.156,"http://taxfoundation.org/state-tax-climate/missouri"],
+	"special cases": ["p"],
 	"notes":
 },
 {
@@ -466,7 +439,8 @@
 			"dependent": 2330
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0,0,"http://taxfoundation.org/state-tax-climate/montana"],
+	"special cases": ["a","e","f","q"],
 	"notes":
 },
 {
@@ -484,7 +458,8 @@
 			"dependent": 130
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.068,0,"http://taxfoundation.org/state-tax-climate/nebraska"],
+	"special cases": ["e","r"],
 	"notes":
 },
 {
@@ -502,7 +477,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0794,0,"http://taxfoundation.org/state-tax-climate/nevada"],
+	"special cases": [null],
 	"notes": "No income tax in Nevada."
 },
 {
@@ -520,7 +496,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0,0,"http://taxfoundation.org/state-tax-climate/new-hampshire"],
+	"special cases": ["New Hampshire"],
 	"notes": "***** SPECIAL CASE *****"
 },
 {
@@ -538,7 +515,8 @@
 			"dependent": 1500
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.07,0,"http://taxfoundation.org/state-tax-climate/new-jersey"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -556,7 +534,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0735,0,"http://taxfoundation.org/state-tax-climate/new-mexico"],
+	"special cases": ["i"],
 	"notes":
 },
 {
@@ -574,7 +553,8 @@
 			"dependent": 1000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0848,0,"http://taxfoundation.org/state-tax-climate/new-york"],
+	"special cases": ["e"],
 	"notes":
 },
 {
@@ -592,7 +572,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.069,0.5,"http://taxfoundation.org/state-tax-climate/north-carolina"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -610,7 +591,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0656,0,"http://taxfoundation.org/state-tax-climate/north-dakota"],
+	"special cases": ["e","p","z"],
 	"notes":
 },
 {
@@ -628,7 +610,8 @@
 			"dependent": 2200
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.071,0.5,"http://taxfoundation.org/state-tax-climate/ohio"],
+	"special cases": ["a","e","g"],
 	"notes":
 },
 {
@@ -646,7 +629,8 @@
 			"dependent": 1000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0877,1,"http://taxfoundation.org/state-tax-climate/oklahoma"],
+	"special cases": ["h"],
 	"notes":
 },
 {
@@ -664,7 +648,8 @@
 			"dependent": 194
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0,0,"http://taxfoundation.org/state-tax-climate/oregon"],
+	"special cases": ["e","f"],
 	"notes":
 },
 {
@@ -682,7 +667,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0634,0,"http://taxfoundation.org/state-tax-climate/pennsylvania"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -700,7 +686,8 @@
 			"dependent": 3850
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.07,0,"http://taxfoundation.org/state-tax-climate/rhode-island"],
+	"special cases": ["e","k"],
 	"notes":
 },
 {
@@ -718,7 +705,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0713,0,"http://taxfoundation.org/state-tax-climate/south-carolina"],
+	"special cases": ["e","p"],
 	"notes":
 },
 {
@@ -736,7 +724,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0583,1,"http://taxfoundation.org/state-tax-climate/south-dakota"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -754,7 +743,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0945,0.58,"http://taxfoundation.org/state-tax-climate/tennessee"],
+	"special cases": ["c"],
 	"notes":
 },
 {
@@ -772,7 +762,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0805,0,"http://taxfoundation.org/state-tax-climate/texas"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -790,7 +781,8 @@
 			"dependent": 3000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0668,0.449,"http://taxfoundation.org/state-tax-climate/utah"],
+	"special cases": ["Utah"],
 	"notes": "***** SPECIAL CASE *****"
 },
 {
@@ -808,7 +800,8 @@
 			"dependent": 4000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0614,0,"http://taxfoundation.org/state-tax-climate/vermont"],
+	"special cases": ["a","e","p"],
 	"notes":
 },
 {
@@ -826,7 +819,8 @@
 			"dependent": 930
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0563,0.222,"http://taxfoundation.org/state-tax-climate/virginia"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -844,7 +838,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0889,0,"http://taxfoundation.org/state-tax-climate/washington"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -862,7 +857,8 @@
 			"dependent": 2000
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0607,0,"http://taxfoundation.org/state-tax-climate/west-virginia"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -880,7 +876,8 @@
 			"dependent": 700
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0543,0,"http://taxfoundation.org/state-tax-climate/wisconsin"],
+	"special cases": ["e","m"],
 	"notes":
 },
 {
@@ -898,7 +895,8 @@
 			"dependent": 0
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0547,0,"http://taxfoundation.org/state-tax-climate/wyoming"],
+	"special cases": [null],
 	"notes":
 },
 {
@@ -916,7 +914,8 @@
 			"dependent": 2200
 		}
 		},
-	"sales tax": [],
+	"sales tax": [0.0575, 0, "https://en.wikipedia.org/wiki/Sales_taxes_in_the_United_States#By_jurisdiction"],
+	"special cases": ["j"],
 	"notes":
 }
 
