@@ -11,6 +11,7 @@ function germany(income,status){
 }
 
 function france(income,status,expenses,children){
+	// Currency: Euros
 	// VAT currently in its most simple state
 	var sources = [['General Info','http://www.tradingeconomics.com/germany/sales-tax-rate']];
 	if (children == 'undefined'){children = 0;}
@@ -45,8 +46,46 @@ function france(income,status,expenses,children){
 	var vat = [0.2,0.055,0.1];
 	var totalVat = vat[0] * expenses;
 	var socialSecurity = 0.08*(0.97*income);
-
 }
 
-console.log(france(14000,'single'))
+function unitedKingdom(income,status){
+	// Currency: Pound Sterling
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_the_United_Kingdom']['National Insurance','https://www.gov.uk/national-insurance-rates-letters/contribution-rates']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
 
+	// Deductions
+	var deductions = 0;
+	deductions += 10600;
+	if (income > 100000){deductions  -= (income - 100000)/2;}
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome < 0){netIncome = 0; totalTax = 0;}
+
+	if (netIncome > 31785){totalTax += 0.2*(31785 - 0);}
+	if (netIncome > 0 && netIncome < 31785){totalTax += 0.2*(netIncome - 0);}
+
+	if (netIncome > 150000){totalTax += 0.4*(150000 - 31785) + 0.45*(netIncome - 150000);}
+	if (netIncome > 31785 && netIncome < 150000){totalTax += 0.4*(netIncome - 31785);}
+
+	// VAT Tax [general, groceries, gas supplies]
+	var vat = [0.20, 0, 0.05];
+	var vatSum = 0;
+
+	// National Insurance
+	var NIdue = 0;
+	var weeklySalary = income/52;
+	if (weeklySalary <= 155){NIdue = 0;}
+	if (weeklySalary > 155 && weeklySalary <= 815){NIdue = 0.12*(weeklySalary - 155);}
+	if (weeklySalary > 815){NIdue = 0.12*(815-155) + 0.02*(weeklySalary - 815);}
+	
+
+	totalTax += (vatSum + NIdue);
+	// Return [total taxes for the year, % of income that goes towards taxes]
+	return [totalTax, totalTax/income]
+}
+
+console.log(unitedKingdom(104000))
