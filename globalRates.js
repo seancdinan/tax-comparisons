@@ -1,3 +1,6 @@
+// NOTE: ALL FUNCTIONS CURRENTLY IGNORE LOCAL TAXES SUCH AS PROPERTY TAX,
+//       THESE ARE EITHER ASSUMED OR SPECIFIED TO BE RELATIVELY MINUTE.
+
 function template(income,status){
 	// Currency: #####
 	// VAT CURRENTLY UNIMPLEMENTED
@@ -264,5 +267,113 @@ function poland(income,status){
 	return [totalTax, totalTax/income]
 }
 
+function romania(income,status){
+	// Currency: Romanian leu
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://home.kpmg.com/xx/en/home/insights/2011/12/romania-other-taxes-levies.html'],['Income Tax', 'http://www.worldwide-tax.com/romania/romania_taxes.asp']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
 
-console.log(poland(20000))
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	totalTax += 0.16 * netIncome;
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [0.24];
+	var vatSum = 0;
+
+	// Social Security
+	var maxAmt = 2415 * 5;
+	var socSec = 0;
+	socSec += 0.06 * income;
+	if (income >= maxAmt){socSec += 0.105 * maxAmt;}
+	if (income < maxAmt){socSec += 0.105 * income;}
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+function netherlands(income,status){
+	// Currency: Euros
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_the_Netherlands'],['Income Tax','https://en.wikipedia.org/wiki/Income_tax_in_the_Netherlands']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome >= 19922){totalTax += 0.3655 * 19922;}
+	if (netIncome < 19922){totalTax += 0.3655 * netIncome;}
+
+	if (netIncome >= 66421){totalTax += 0.4040 * (66421 - 19922);}
+	if (netIncome < 66421 && netIncome > 19922){totalTax += 0.4040 * (netIncome - 19922);}
+
+	if (netIncome > 66421){totalTax += 0.52 * (netIncome - 66421);}
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [0.21, 0.06];
+	var vatSum = 0;
+
+	// €2001 tax credit applied
+	totalTax -= 2001;
+
+	return [totalTax, totalTax/income]
+}
+
+function belgium(income,status, dependents){
+	// Currency: Euros
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_Belgium']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+	deductions += 7070;
+	for (var i = 1; i <= dependents; i++){
+		if (i == 1){deductions += 1500;}
+		if (i == 2){deductions += 3870;}
+		if (i == 3){deductions += 8670;}
+		if (i == 4){deductions += 14020;}
+	}
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome >= 8680){totalTax += 0.25 * 8680;}
+	if (netIncome < 8680){totalTax += 0.25 * netIncome;}
+
+	if (netIncome >= 12360){totalTax += 0.30 * (12360 - 8680);}
+	if (netIncome < 12360 && netIncome > 8680){totalTax += 0.30 * (netIncome - 8680);}
+
+	if (netIncome >= 20600){totalTax += 0.4 * (20600 - 12360);}
+	if (netIncome < 20600 && netIncome > 12360){totalTax += 0.4 * (netIncome - 12360);}
+
+	if (netIncome >= 37750){totalTax += 0.45 * (37750 - 20600);}
+	if (netIncome < 37750 && netIncome > 20600){totalTax += 0.45 * (netIncome - 20600);}
+
+	if (netIncome > 37750){totalTax += 0.5 * (netIncome - 37750);}
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [0.21, 0.06];
+	var vatSum = 0;
+
+	// Social Security
+	var socSec = 0.1307 * income;
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+console.log(belgium(20000))
