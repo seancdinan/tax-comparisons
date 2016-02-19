@@ -1,3 +1,27 @@
+function template(income,status){
+	// Currency: #####
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [];
+	var vatSum = 0;
+
+	// ### OTHER TAXES ###
+
+	return [totalTax, totalTax/income]
+}
+
 function germany(income,status){
 	var sources = [['General Info', 'https://en.wikipedia.org/wiki/Taxation_in_Germany'],['VAT tax','http://www.tradingeconomics.com/germany/sales-tax-rate']];
 	var moneyLeft = income;
@@ -28,19 +52,19 @@ function france(income,status,expenses,children){
 
 	// Income Tax Calculation
 	if (status == 'married'){netIncome = income/2}
-		if (netIncome < 6011){totalTax = 0; return totalTax;}
+	if (netIncome < 6011){totalTax = 0; return totalTax;}
 
-		if (netIncome > 11991){totalTax += (11991 - 6011)*0.055;}
-		else if (netIncome > 6011 && netIncome < 11991){totalTax += (netIncome - 6011)*0.055; return totalTax;}
+	if (netIncome >= 11991){totalTax += (11991 - 6011)*0.055;}
+	else if (netIncome > 6011 && netIncome < 11991){totalTax += (netIncome - 6011)*0.055; return totalTax;}
 
-		if (netIncome > 26631){totalTax += (26631 - 11991)*0.14;}
-		else if (netIncome > 11991 && netIncome < 26631){totalTax += (netIncome - 11991)*0.14; return totalTax;}
+	if (netIncome >= 26631){totalTax += (26631 - 11991)*0.14;}
+	else if (netIncome > 11991 && netIncome < 26631){totalTax += (netIncome - 11991)*0.14; return totalTax;}
 
-		if (netIncome > 71397){totalTax += (71397 - 26631)*0.30;}
-		else if (netIncome > 26631 && netIncome < 71397){totalTax += (netIncome - 26631)*0.30; return totalTax;}
+	if (netIncome >= 71397){totalTax += (71397 - 26631)*0.30;}
+	else if (netIncome > 26631 && netIncome < 71397){totalTax += (netIncome - 26631)*0.30; return totalTax;}
 
-		if (netIncome > 71397 && netIncome < 151200){totalTax += (netIncome - 71397)*0.41; return totalTax;}
-		if (netIncome > 151200){totalTax += (151200 - 71397)*0.41; totalTax += (netIncome - 151200)*0.45;return totalTax;}
+	if (netIncome >= 71397 && netIncome < 151200){totalTax += (netIncome - 71397)*0.41; return totalTax;}
+	if (netIncome >= 151200){totalTax += (151200 - 71397)*0.41; totalTax += (netIncome - 151200)*0.45;return totalTax;}
 	
 	// vat = [standard, groceries, books/restaurants]
 	var vat = [0.2,0.055,0.1];
@@ -65,10 +89,10 @@ function unitedKingdom(income,status){
 	// Income Tax
 	if (netIncome < 0){netIncome = 0; totalTax = 0;}
 
-	if (netIncome > 31785){totalTax += 0.2*(31785 - 0);}
+	if (netIncome >= 31785){totalTax += 0.2*(31785 - 0);}
 	if (netIncome > 0 && netIncome < 31785){totalTax += 0.2*(netIncome - 0);}
 
-	if (netIncome > 150000){totalTax += 0.4*(150000 - 31785) + 0.45*(netIncome - 150000);}
+	if (netIncome >= 150000){totalTax += 0.4*(150000 - 31785) + 0.45*(netIncome - 150000);}
 	if (netIncome > 31785 && netIncome < 150000){totalTax += 0.4*(netIncome - 31785);}
 
 	// VAT Tax [general, groceries, gas supplies]
@@ -88,4 +112,45 @@ function unitedKingdom(income,status){
 	return [totalTax, totalTax/income]
 }
 
-console.log(unitedKingdom(104000))
+function italy(income,status){
+	// Currency: EURO
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_Italy']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome >= 15000){totalTax += 0.23 * (15000 - 0);}
+	if (netIncome < 15000){totalTax += 0.23 * netIncome;}
+
+	if (netIncome >= 28000){totalTax += 0.27 * (28000 - 15000);}
+	if (netIncome < 28000 && netIncome > 15000){totalTax += 0.27 * (netIncome - 15000);}
+
+	if (netIncome >= 55000){totalTax += 0.38 * (55000 - 28000);}
+	if (netIncome < 55000 && netIncome > 28000){totalTax += 0.38 * (netIncome - 28000);}
+
+	if (netIncome >= 75000){totalTax += 0.41 * (75000 - 55000);}
+	if (netIncome < 75000 && netIncome > 55000){totalTax += 0.41 * (netIncome - 55000);}
+
+	if (netIncome > 75000){totalTax += 0.43 * (netIncome - 75000);}
+
+	// VAT Tax [general, groceries, restaurants]
+	var vat = [0.22, 0.04, 0.10];
+	var vatSum = 0;
+
+
+	// Social Security
+	var socSec = 0.0919 * income;
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+
+console.log(italy(20000))
