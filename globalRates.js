@@ -152,5 +152,117 @@ function italy(income,status){
 	return [totalTax, totalTax/income]
 }
 
+function spain(income,status, dependents){
+	// Currency: EURO
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_Spain']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+	if (dependents == 'undefined'){dependents = 0;}
 
-console.log(italy(20000))
+	// Deductions (Assume <65 year old)
+	var deductions = 0;
+	deductions += 5151;
+	for (var i = 0; i <= dependents; i++){
+		if (i == 0){deductions += 0;}
+		if (i == 1){deductions += 1836;}
+		if (i == 2){deductions += 2040;}
+		if (i == 3){deductions += 3672;}
+		if (i >= 4){deductions += 4182;}
+	}
+	var netIncome = income - deductions;
+	if (netIncome < 0){netIncome = 0;}
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome >= 12450){totalTax += 0.2 * (12450 - 0);}
+	if (netIncome < 12450){totalTax += 0.2 * (netIncome - 0);}
+
+	if (netIncome >= 20200){totalTax += 0.25 * (20200 - 12450);}
+	if (netIncome < 20200 && netIncome > 12450){totalTax += 0.25 * (netIncome - 12450);}
+
+	if (netIncome >= 35200){totalTax += 0.31 * (35200 - 20200);}
+	if (netIncome < 35200 && netIncome > 20200){totalTax += 0.31 * (netIncome - 20200);}
+
+	if (netIncome >= 60000){totalTax += 0.39 * (60000 - 35200);}
+	if (netIncome < 60000 && netIncome > 35200){totalTax += 0.39 * (netIncome - 35200);}
+
+	if (netIncome > 60000){totalTax += 0.47 * (netIncome - 60000);}
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [0.21, 0.04, 0.10];
+	var vatSum = 0;
+
+	// Social Security
+	var socSec = 0.0635 * income;
+	if (socSec > 3596){socSec = 3596;}
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+function ukraine(income,status){
+	// Currency: UKRAINIAN HRYVNIA
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','http://www.worldwide-tax.com/ukraine/ukraine_taxes.asp'],['Monthly Min Wage','https://en.wikipedia.org/wiki/List_of_sovereign_states_in_Europe_by_minimum_wage'],['Social Security','http://www.tradingeconomics.com/ukraine/social-security-rate-for-employees']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+	// Different rate applies if making over 10x minumum.
+	var minWage10 = 1378 * 12 * 10;
+
+	// Income Tax
+	if (netIncome >= minWage*10){totalTax += 0.15 * (minWage*10);}
+	if (netIncome < minWage*10){totalTax += 0.15 * netIncome;}
+	if (netIncome > minWage*10){totalTax += 0.17 * (netIncome - 10*minWage);}
+
+
+	// VAT Tax [general, groceries, baby food and a few random things]
+	var vat = [0.20, 0.20, 0.07];
+	var vatSum = 0;
+
+	// Social Security
+	var socSec = 0.036 * income;
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+function poland(income,status){
+	// Currency: Polish złoty
+	// VAT CURRENTLY UNIMPLEMENTED
+	var sources = [['General Info','https://en.wikipedia.org/wiki/Taxation_in_Poland'],['Social Security','https://home.kpmg.com/xx/en/home/insights/2011/12/poland-other-taxes-levies.html']];
+	// Default Values
+	if (status == 'undefined'){status == 'single';}
+
+	// Deductions
+	var deductions = 0;
+
+	var netIncome = income - deductions;
+	var totalTax = 0;
+
+	// Income Tax
+	if (netIncome >= 85528){totalTax += 0.18 * (85528 - 3091);}
+	if (netIncome < 85528){totalTax += 0.18 * (netIncome - 3091);}
+	if (netIncome > 85528){totalTax += 0.32 + (netIncome - 85528);}
+
+	// VAT Tax [general, groceries, misc]
+	var vat = [0.23, 0.05, 0.08];
+	var vatSum = 0;
+
+	// Social Security
+	var socSec = 0;
+	if (income < 118770){socSec += 0.1371 * income;}
+	if (income >= 118770){socSec += (0.1371 * 118770) + (0.0245 * (income - 118770));}
+
+	totalTax += socSec;
+	return [totalTax, totalTax/income]
+}
+
+
+console.log(poland(20000))
