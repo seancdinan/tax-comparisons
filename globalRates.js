@@ -577,12 +577,27 @@ function austria(income,status){
 	var totalTax = 0;
 
 	// Income Tax
+	if (netIncome >= 7270){totalTax += 0.21 * (7270 - 3640);}
+	if (netIncome > 3640 && netIncome < 7270){totalTax += 0.21 * (netIncome - 3640);}
 
-	// VAT Tax [general, groceries, misc]
-	var vat = [];
+	if (netIncome >= 21800){totalTax += 0.31 * (21800 - 7270);}
+	if (netIncome > 7270 && netIncome < 21800){totalTax += 0.31 * (netIncome - 7270);}
+
+	if (netIncome >= 50870){totalTax += 0.41 * (50870 - 21800);}
+	if (netIncome > 21800 && netIncome < 50870){totalTax += 0.41 * (netIncome - 50870);}
+
+	if (netIncome > 51000){totalTax += 0.50 * (netIncome - 51000);}
+
+	// VAT Tax [general, groceries, most entertainment stuff]
+	var vat = [0.20, 0.10, 0.10];
 	var vatSum = 0;
 
-	// ### OTHER TAXES ###
+	// Social Security
+	var socSec = 0;
+	if (income/12 > 4230){
+		socSec += 0.1025 * (12 * 4230);
+	}
+	else socSec += 0.1025 * income;
 
 	return [totalTax, totalTax/income]
 }
